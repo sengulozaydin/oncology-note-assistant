@@ -1,0 +1,51 @@
+﻿file_name,question,answer,evidence_status,evidence_section,evidence_text
+mt_oncology_0.txt,What procedure was performed?,"The patient underwent decortication of the lung with pleural biopsy and transpleural fluoroscopy, thoracentes",unverified,,
+mt_oncology_1.txt,What procedure was performed?,"The procedure performed was excision of large basal cell carcinoma, right lower lid, and repaired with used dorsal conjunctival",ambiguous,,
+mt_oncology_10.txt,What procedure was performed?,A bone marrow aspiration and biopsy was performed.,unverified,,
+mt_oncology_11.txt,What procedure was performed?,Intensity-modulated radiation therapy was performed.,ambiguous,,
+mt_oncology_12.txt,What procedure was performed?,The procedure performed was left neck dissection.,lexical_match_review_required,OPERATION PERFORMED:,Left neck dissection.
+mt_oncology_13.txt,What procedure was performed?,The intracavitary brachytherapy procedure was performed.,lexical_match_review_required,Description:,The intracavitary brachytherapy applicator was placed appropriately and secured after the patient was identified.
+mt_oncology_14.txt,What procedure was performed?,Excisional biopsy of right cervical lymph node was performed.,lexical_match_review_required,PROCEDURE:,Excisional biopsy of right cervical lymph node.
+mt_oncology_15.txt,What procedure was performed?,The patient underwent bilateral mastectomy with the first one about 14 years ago and the second one about 5 years ago.,unverified,,
+mt_oncology_16.txt,What procedure was performed?,Electro beam radiotherapy was performed to the left chest wall as well as the neck.,unverified,,
+mt_oncology_17.txt,What procedure was performed?,The procedure performed was left axillary lymph node excisional biopsy.,lexical_match_review_required,PROCEDURE:,Left axillary lymph node excisional biopsy.
+mt_oncology_18.txt,What procedure was performed?,The patient underwent endoscopic retrograde cholangiopancreatography.,lexical_match_review_required,HISTORY OF PRESENT ILLNESS:,"On August 24, 2010, she underwent the endoscopic retrograde cholangiopancreatography."
+mt_oncology_19.txt,What procedure was performed?,The procedure performed was excision of nasal tip basal carcinoma.,lexical_match_review_required,OPERATION PERFORMED:,Excision of nasal tip basal carcinoma.
+mt_oncology_2.txt,What procedure was performed?,Knee surgery was performed on the patient's left knee.,unverified,,
+mt_oncology_20.txt,What procedure was performed?,The patient underwent intravenous heparin and hemodialysis is being planned for tomorrow.,unverified,,
+mt_oncology_21.txt,What procedure was performed?,The procedure performed was excision of right superior parathyroid adenoma.,lexical_match_review_required,PROCEDURE:,Excision of right superior parathyroid adenoma.
+mt_oncology_22.txt,What procedure was performed?,The patient underwent a total abdominal hysterectomy/bilateral salpingo-oophorectomy.,unverified,,
+mt_oncology_23.txt,What procedure was performed?,"The patient underwent restaging with CT of the abdomen prior to the cycle, immunosuppression, and mucosal candidias",unverified,,
+mt_oncology_24.txt,What procedure was performed?,The patient underwent a PET CT scan and lumbar puncture.,unverified,,
+mt_oncology_25.txt,What procedure was performed?,The patient underwent phlebotomy for follow-up of the above condition.,unverified,,
+mt_oncology_26.txt,What procedure was performed?,"The procedure performed was excision basal cell carcinoma (0.8 cm diameter), right medial canthus with frozen section, and reconstruction of defect (",unverified,,
+mt_oncology_27.txt,What procedure was performed?,The patient underwent a left subclavian vein MediPort placement (7.5-French single-lumen).,unverified,,
+mt_oncology_28.txt,What procedure was performed?,The patient underwent a bone marrow biopsy.,ambiguous,,
+mt_oncology_29.txt,What procedure was performed?,The procedure performed was excision of left breast mass.,lexical_match_review_required,PROCEDURE:,Excision of left breast mass.
+mt_oncology_3.txt,What procedure was performed?,The patient underwent a right thoracotomy and a right lower lobectomy with en bloc resection of di,unverified,,
+mt_oncology_30.txt,What procedure was performed?,The patient underwent a bone marrow biopsy and a plasma cell dyscrasia.,unverified,,
+mt_oncology_31.txt,What procedure was performed?,A transsphenoidal resection of tumor was performed.,lexical_match_review_required,HISTORY OF PRESENT ILLNESS:,"He was brought to the operating room on 01/04/07, underwent a transsphenoidal resection of tumor."
+mt_oncology_32.txt,What procedure was performed?,Cyclosporine and prednisone were performed.,ambiguous,,
+mt_oncology_33.txt,What procedure was performed?,A total thyroidectomy was performed to eradicate as much of the native thyroid tissue and remove the primary source of the cancer in anticipation of radioactive i,unverified,,
+mt_oncology_34.txt,What procedure was performed?,The patient underwent CTSU/C40502.,unverified,,
+mt_oncology_35.txt,What procedure was performed?,The patient underwent ultrasound-guided I-125 seed implantation.,unverified,,
+mt_oncology_36.txt,What procedure was performed?,"Flexible bronchoscopy, mediastinoscopy, right thoracotomy, and pleural biopsy were performed.",unverified,,
+mt_oncology_37.txt,What procedure was performed?,The procedure performed was left axillary dissection with incision and drainage of left axillary mass and right axillary mass,unverified,,
+mt_oncology_38.txt,What procedure was performed?,The procedure performed was excision of right breast mass.,ambiguous,,
+mt_oncology_39.txt,What procedure was performed?,The patient underwent diagnostic bone marrow aspirate/biopsy and lumbar puncture.,unverified,,
+mt_oncology_4.txt,What procedure was performed?,"The procedure performed was excision of mass, left second toe, and distal Syme ⁇ 's amputation, left hallux with",unverified,,
+mt_oncology_40.txt,What procedure was performed?,"The procedure performed was excision of basal cell carcinoma, right cheek, 2.7 cm x 1.5 cm, excision of basal cell carcinoma",unverified,,
+mt_oncology_41.txt,What procedure was performed?,True cut needle biopsy of the breast was performed.,lexical_match_review_required,PROCEDURE PERFORMED:,True cut needle biopsy of the breast.
+mt_oncology_42.txt,What procedure was performed?,An ultrasound of the abdomen was performed.,unverified,,
+mt_oncology_43.txt,What procedure was performed?,The patient underwent chemotherapy with carboplatin and etoposide.,unverified,,
+mt_oncology_44.txt,What procedure was performed?,"Left neck mass biopsy and selective surgical neck dissection, left were performed.",lexical_match_review_required,Description:,"Left neck mass biopsy and selective surgical neck dissection, left."
+mt_oncology_45.txt,What procedure was performed?,1.0 mCi of Technetium-99m sulfur colloid was injected within the dermis surrounding the left breast biopsy site,lexical_match_review_required,TECHNIQUE:,1.0 mCi of Technetium-99m sulfur colloid was injected within the dermis surrounding the left breast biopsy site at four locations.
+mt_oncology_46.txt,What procedure was performed?,The patient underwent lymph node biopsy on the right neck on 10/27/2006.,lexical_match_review_required,HISTORY OF PRESENT ILLNESS:,The patient underwent lymph node biopsy on the right neck on 10/27/2006.
+mt_oncology_47.txt,What procedure was performed?,The patient underwent concomitant chemoradiotherapy.,unverified,,
+mt_oncology_48.txt,What procedure was performed?,The patient underwent a surgical resection.,unverified,,
+mt_oncology_49.txt,What procedure was performed?,The patient underwent a left modified radical mastectomy.,unverified,,
+mt_oncology_5.txt,What procedure was performed?,The patient underwent prednisone injection.,unverified,,
+mt_oncology_6.txt,What procedure was performed?,"A CT scan of the chest, abdomen, and pelvis was done for full staging purposes.",lexical_match_review_required,HISTORY OF PRESENT ILLNESS:,"On admission on 12/19/08, a CT scan of the chest, abdomen, and pelvis was done for full staging purposes."
+mt_oncology_7.txt,What procedure was performed?,"The patient underwent a CT scan, m-BACOD, and radiation to his pelvis.",unverified,,
+mt_oncology_8.txt,What procedure was performed?,A bone marrow biopsy was performed.,ambiguous,,
+mt_oncology_9.txt,What procedure was performed?,S/P lumpectomy left breast and Left axillary node sampling were performed.,lexical_match_review_required,SURGERY:,S/P lumpectomy left breast and Left axillary node sampling.

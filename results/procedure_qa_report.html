@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Procedure QA Results</title><style>
+body{margin:0;background:#f3f5f7;color:#182331;font:16px/1.65 system-ui,Arial,sans-serif}
+main{max-width:980px;margin:36px auto;padding:0 20px}header,article{background:white;padding:28px;border:1px solid #d9e0e7;border-radius:10px;margin-bottom:20px}
+h1{font-size:30px;margin:0 0 12px}h2{font-size:20px;margin:0 0 18px;overflow-wrap:anywhere}p{margin:10px 0;overflow-wrap:anywhere}
+ul{padding-left:24px}.source{background:#fafbfc;padding:18px;border-left:3px solid #8b9cb0}.notice{color:#5b4650}mark{background:#ffe066;color:#111;padding:1px 0}
+a{color:#1554a0}@media print{body{background:white}main{margin:0;max-width:none}article{break-inside:avoid}mark{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style></head><body><main><header><h1>Procedure QA Results</h1>
+<p>50 saved results. Answers and evidence selection are unchanged; no model inference was run for this export.</p><p>Yellow highlighting identifies source-note text offered as support for the answer. Lexical matches require review and do not establish clinical entailment or reveal the model’s reasoning. Ambiguous and unverified answers have no highlighted evidence.</p><ul><li><strong>6</strong> Ambiguous — no evidence selected</li><li><strong>15</strong> Lexical match — review required</li><li><strong>29</strong> Unverified — no evidence selected</li></ul><p><a href="procedure_qa_results.csv" download>Download all results as CSV</a></p></header><article><h2>mt_oncology_0.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent decortication of the lung with pleural biopsy and transpleural fluoroscopy, thoracentes</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_1.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of large basal cell carcinoma, right lower lid, and repaired with used dorsal conjunctival</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_10.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> A bone marrow aspiration and biopsy was performed.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_11.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Intensity-modulated radiation therapy was performed.</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_12.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was left neck dissection.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> OPERATION PERFORMED:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">t had thyroid cancer, papillary cell type, removed with a total thyroidectomy and then subsequently recurrent disease was removed with a paratracheal dissection.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Metastatic papillary cancer, left neck.
+POSTOPERATIVE DIAGNOSIS:
+Metastatic papillary cancer, left neck.
+OPERATION PERFORMED:
+<mark style="background:#ffe066;color:#111">Left neck dissection.</mark>
+ANESTHESIA:
+General endotracheal.
+INDICATIONS:
+The patient is a very nice gentleman, who has had thyroid cancer, papillary cell type, removed with a total thyroidectomy and then subsequently recurrent disease was removed with a paratracheal dissection. He now has evidence of lesion in the left mid neck and the left superior neck on ultrasound, whi</div></article>
+<article><h2>mt_oncology_13.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The intracavitary brachytherapy procedure was performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> Description:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+HDR Brachytherapy
+Description:
+HDR Brachytherapy
+(Medical Transcription Sample Report)
+HDR BRACHYTHERAPY
+<mark style="background:#ffe066;color:#111">The intracavitary brachytherapy applicator was placed appropriately and secured after the patient was identified.</mark> Simulation films were obtained, documenting its positioning. The 3-dimensional treatment planning process was accomplished utilizing the CT derived data. A treatment plan was selected utilizing sequential dwell positions within a single catheter. The patient was taken to the treatment area. The patient was appropriately positioned and the position</div></article>
+<article><h2>mt_oncology_14.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Excisional biopsy of right cervical lymph node was performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> PROCEDURE:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Biopsy - Cervical Lymph Node
+Description:
+Excisional biopsy of right cervical lymph node.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Cervical lymphadenopathy.
+POSTOPERATIVE DIAGNOSIS:
+Cervical lymphadenopathy.
+PROCEDURE:
+<mark style="background:#ffe066;color:#111">Excisional biopsy of right cervical lymph node.</mark>
+ANESTHESIA:
+General endotracheal anesthesia.
+SPECIMEN:
+Right cervical lymph node.
+EBL:
+10 cc.
+COMPLICATIONS:
+None.
+FINDINGS:
+Enlarged level 2 lymph node was identified and removed and sent for pathologic examination.
+FLUIDS:
+Please see anesthesia report.
+URINE OUTPUT:
+None recorded during the case.
+INDICATIONS FOR PROCEDURE:
+This is a 43-year-old </div></article>
+<article><h2>mt_oncology_15.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent bilateral mastectomy with the first one about 14 years ago and the second one about 5 years ago.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_16.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Electro beam radiotherapy was performed to the left chest wall as well as the neck.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_17.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was left axillary lymph node excisional biopsy.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> PROCEDURE:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Lymph Node Excisional Biopsy
+Description:
+Left axillary lymph node excisional biopsy. Left axillary adenopathy.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Left axillary adenopathy.
+POSTOPERATIVE DIAGNOSIS:
+Left axillary adenopathy.
+PROCEDURE:
+<mark style="background:#ffe066;color:#111">Left axillary lymph node excisional biopsy.</mark>
+ANESTHESIA:
+LMA.
+INDICATIONS:
+Patient is a very pleasant woman who in 2006 had breast conservation therapy with radiation only. Note, she refused her CMF adjuvant therapy and this was for a triple-negative infiltrating ductal carcinoma of the breast. Patient has been following with Dr. Diener and Dr. Wilmot. I believe that genetic counseling had b</div></article>
+<article><h2>mt_oncology_18.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent endoscopic retrograde cholangiopancreatography.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> HISTORY OF PRESENT ILLNESS:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere"> to be 10 mm in size on that ultrasound. She then underwent a CT scan of the abdomen in July 2010, which showed intrahepatic ductal dilatation with the common bile duct size being 12.7 mm. She then underwent an MRI MRCP, which was notable for stricture of the distal common bile duct. She was then referred to gastroenterology and underwent an ERCP. <mark style="background:#ffe066;color:#111">On August 24, 2010, she underwent the endoscopic retrograde cholangiopancreatography.</mark> She was noted to have a stricturing mass of the mid-to-proximal common bile duct consistent with cholangiocarcinoma. A temporary biliary stent was placed across the biliary stricture. Blood work was obtained during the hospitalization. She was also noted to have an elevated CA99. She comes in to clinic today for initial Medical Oncology consultati</div></article>
+<article><h2>mt_oncology_19.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of nasal tip basal carcinoma.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> OPERATION PERFORMED:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">cology
+Sample Name:
+BCCa Excision - Nasal Tip
+Description:
+Excision of nasal tip basal carcinoma, previous positive biopsy.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Basal cell carcinoma, nasal tip, previous positive biopsy.
+POSTOPERATIVE DIAGNOSIS:
+Basal cell carcinoma, nasal tip, previous positive biopsy.
+OPERATION PERFORMED:
+<mark style="background:#ffe066;color:#111">Excision of nasal tip basal carcinoma.</mark> Total area of excision, approximately 1 cm to 12 mm frozen section x2, final margins clear.
+INDICATION:
+A 66-year-old female for excision of nasal basal cell carcinoma. This area is to be excised accordingly and closed. We had multiple discussions regarding types of closure.
+SUMMARY:
+The patient was brought to the OR in satisfactory condition and </div></article>
+<article><h2>mt_oncology_2.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Knee surgery was performed on the patient&#x27;s left knee.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_20.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent intravenous heparin and hemodialysis is being planned for tomorrow.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_21.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of right superior parathyroid adenoma.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> PROCEDURE:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">
+Hematology - Oncology
+Sample Name:
+Parathyroid Adenoma Excision
+Description:
+Excision of right superior parathyroid adenoma, seen on sestamibi parathyroid scan and an ultrasound.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Right superior parathyroid adenoma.
+POSTOPERATIVE DIAGNOSIS:
+Right superior parathyroid adenoma.
+PROCEDURE:
+<mark style="background:#ffe066;color:#111">Excision of right superior parathyroid adenoma.</mark>
+ANESTHESIA:
+Local with 1% Xylocaine and anesthesia standby with sedation.
+CLINICAL HISTORY:
+This 80-year-old woman has had some mild dementia. She was begun on Aricept but could not tolerate that because of strange thoughts and hallucinations. She was found to be hypercalcemic. Intact PTH was mildly elevated. A sestamibi parathyroid scan and an ul</div></article>
+<article><h2>mt_oncology_22.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a total abdominal hysterectomy/bilateral salpingo-oophorectomy.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_23.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent restaging with CT of the abdomen prior to the cycle, immunosuppression, and mucosal candidias</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_24.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a PET CT scan and lumbar puncture.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_25.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent phlebotomy for follow-up of the above condition.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_26.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision basal cell carcinoma (0.8 cm diameter), right medial canthus with frozen section, and reconstruction of defect (</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> Generated answer appears incomplete; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_27.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a left subclavian vein MediPort placement (7.5-French single-lumen).</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_28.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a bone marrow biopsy.</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_29.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of left breast mass.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> PROCEDURE:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">ematology - Oncology
+Sample Name:
+Breast Mass Excision - 2
+Description:
+Excision of left breast mass. The mass was identified adjacent to the left nipple. It was freely mobile and it did not seem to hold the skin.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Breast mass, left.
+POSTOPERATIVE DIAGNOSIS:
+Breast mass, left.
+PROCEDURE:
+<mark style="background:#ffe066;color:#111">Excision of left breast mass.</mark>
+OPERATION:
+After obtaining an informed consent, the patient was taken to the operating room where he underwent general endotracheal anesthesia. The time-out process was followed. Preoperative antibiotic was given. The patient was prepped and draped in the usual fashion. The mass was identified adjacent to the left nipple. It was freely mobile and </div></article>
+<article><h2>mt_oncology_3.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a right thoracotomy and a right lower lobectomy with en bloc resection of di</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_30.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a bone marrow biopsy and a plasma cell dyscrasia.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_31.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> A transsphenoidal resection of tumor was performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> HISTORY OF PRESENT ILLNESS:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere"> and tinnitus, but his vision is much improved.
+(Medical Transcription Sample Report)
+REASON FOR VISIT:
+Postoperative visit for craniopharyngioma.
+HISTORY OF PRESENT ILLNESS:
+Briefly, a 16-year-old right-handed boy who is in eleventh grade, who presents with some blurred vision and visual acuity difficulties, was found to have a suprasellar tumor. <mark style="background:#ffe066;color:#111">He was brought to the operating room on 01/04/07, underwent a transsphenoidal resection of tumor.</mark> Histology returned as craniopharyngioma. There is some residual disease; however, the visual apparatus was decompressed. According to him, he is doing well, back at school without any difficulties. He has some occasional headaches and tinnitus, but his vision is much improved.
+MEDICATIONS:
+Synthroid 100 mcg per day.
+FINDINGS:
+On exam, he is awake,</div></article>
+<article><h2>mt_oncology_32.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Cyclosporine and prednisone were performed.</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_33.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> A total thyroidectomy was performed to eradicate as much of the native thyroid tissue and remove the primary source of the cancer in anticipation of radioactive i</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_34.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent CTSU/C40502.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_35.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent ultrasound-guided I-125 seed implantation.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_36.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Flexible bronchoscopy, mediastinoscopy, right thoracotomy, and pleural biopsy were performed.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_37.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was left axillary dissection with incision and drainage of left axillary mass and right axillary mass</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_38.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of right breast mass.</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_39.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent diagnostic bone marrow aspirate/biopsy and lumbar puncture.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_4.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of mass, left second toe, and distal Syme ⁇ &#x27;s amputation, left hallux with</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_40.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The procedure performed was excision of basal cell carcinoma, right cheek, 2.7 cm x 1.5 cm, excision of basal cell carcinoma</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_41.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> True cut needle biopsy of the breast was performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> PROCEDURE PERFORMED:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">mpling and puckering of the skin associated with nipple discharge. On exam, she has a noticeable carcinoma of the left breast with dimpling, puckering, and erosion through the skin.
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Carcinoma of the left breast.
+POSTOPERATIVE DIAGNOSIS:
+Carcinoma of the left breast.
+PROCEDURE PERFORMED:
+<mark style="background:#ffe066;color:#111">True cut needle biopsy of the breast.</mark>
+GROSS FINDINGS:
+This 65-year-old female on exam was noted to have dimpling and puckering of the skin associated with nipple discharge. On exam, she has a noticeable carcinoma of the left breast with dimpling, puckering, and erosion through the skin. At this time, a true cut needle biopsy was performed.
+PROCEDURE:
+The patient was taken to operating</div></article>
+<article><h2>mt_oncology_42.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> An ultrasound of the abdomen was performed.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_43.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent chemotherapy with carboplatin and etoposide.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_44.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> Left neck mass biopsy and selective surgical neck dissection, left were performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> Description:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Neck Mass Biopsy
+Description:
+Malignant mass of the left neck, squamous cell carcinoma. <mark style="background:#ffe066;color:#111">Left neck mass biopsy and selective surgical neck dissection, left.</mark>
+(Medical Transcription Sample Report)
+PREOPERATIVE DIAGNOSIS:
+Malignant mass of the left neck.
+POSTOPERATIVE DIAGNOSIS:
+Malignant mass of the left neck, squamous cell carcinoma.
+PROCEDURES
+1. Left neck mass biopsy.
+2. Selective surgical neck dissection, left.
+DESCRIPTION OF PROCEDURE:
+After obtaining an informed, the patient was taken to the opera</div></article>
+<article><h2>mt_oncology_45.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> 1.0 mCi of Technetium-99m sulfur colloid was injected within the dermis surrounding the left breast biopsy site</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> TECHNIQUE:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">
+Sample Name:
+Nuclear Medicine Lymphatic Scan
+Description:
+Left breast cancer. Nuclear medicine lymphatic scan. A 16-hour left anterior oblique imaging was performed with and without shielding of the original injection site.
+(Medical Transcription Sample Report)
+EXAM:
+Nuclear medicine lymphatic scan.
+REASON FOR EXAM:
+Left breast cancer.
+TECHNIQUE:
+<mark style="background:#ffe066;color:#111">1.0 mCi of Technetium-99m sulfur colloid was injected within the dermis surrounding the left breast biopsy site at four locations.</mark> A 16-hour left anterior oblique imaging was performed with and without shielding of the original injection site.
+FINDINGS:
+There are two small foci of increased activity in the left axilla. This is consistent with the sentinel lymph node. No other areas of activity are visualized outside of the injection site and two axillary lymph nodes.
+IMPRESSI</div></article>
+<article><h2>mt_oncology_46.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent lymph node biopsy on the right neck on 10/27/2006.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> HISTORY OF PRESENT ILLNESS:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">ultrasound was done and showed the spleen enlarged at 19 cm. In retrospect, this was not changed in comparison to an ultrasound that was done in September. She underwent positron emission tomography (PET) scanning, which showed diffuse hypermetabolic lymph nodes measuring 1 to 2 cm in diameter, as well as a hypermetabolic spleen that was enlarged.
+<mark style="background:#ffe066;color:#111">The patient underwent lymph node biopsy on the right neck on 10/27/2006.</mark> Pathology is consistent with mantle cell lymphoma.
+On 10/31/2006, she had a bone marrow biopsy. This does show involvement of bone marrow with lymphoma.
+She was noted to have circulating lymphoma cells on peripheral smear as well.
+Although CBC was normal, MCV was low and the ferritin was assessed and was low at 8, consistent with iron deficiency.
+</div></article>
+<article><h2>mt_oncology_47.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent concomitant chemoradiotherapy.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_48.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a surgical resection.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_49.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a left modified radical mastectomy.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_5.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent prednisone injection.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_6.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> A CT scan of the chest, abdomen, and pelvis was done for full staging purposes.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> HISTORY OF PRESENT ILLNESS:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">nk much of this and tried to go about doing work and everything else but the pain gradually worsened. Eventually this prompted him to present to the emergency room. A CT scan was done there, and he was found to have a large left adrenal mass worrisome for metastatic disease. At that point, he was transferred to XYZ Hospital for further evaluation. <mark style="background:#ffe066;color:#111">On admission on 12/19/08, a CT scan of the chest, abdomen, and pelvis was done for full staging purposes.</mark> The CT scan of the chest showed an abnormal soft tissue mass in the right paratracheal region, extending into the precarinal region, the subcarinal region, and the right hilum. This was causing some compression on the inferior aspect of the SVC and also some narrowing of the right upper lobe pulmonary artery. There was an abnormal lymph node noted</div></article>
+<article><h2>mt_oncology_7.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> The patient underwent a CT scan, m-BACOD, and radiation to his pelvis.</p><p><strong>Evidence status:</strong> Unverified — no evidence selected</p><p><strong>Selection note:</strong> No conservative source match; answer is unverified.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_8.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> A bone marrow biopsy was performed.</p><p><strong>Evidence status:</strong> Ambiguous — no evidence selected</p><p><strong>Selection note:</strong> Multiple source occurrences match equally; no evidence selected.</p><p><strong>Evidence section:</strong> Not selected</p><p class="notice">No reliable evidence selected. No source text is highlighted.</p></article>
+<article><h2>mt_oncology_9.txt</h2><p><strong>Question:</strong> What procedure was performed?</p><p><strong>Model answer:</strong> S/P lumpectomy left breast and Left axillary node sampling were performed.</p><p><strong>Evidence status:</strong> Lexical match — review required</p><p><strong>Selection note:</strong> Unique lexical source match, not validated clinical entailment.</p><p><strong>Evidence section:</strong> SURGERY:</p><p><strong>Source-note evidence and surrounding text:</strong></p><div class="source" style="white-space:pre-wrap;overflow-wrap:anywhere">to have a mass measuring 2 cm in the UOQ and of the left breast. Patient had an excisional biopsy of the mass and subsequently axillary nodal sampling.
+PATHOLOGY:
+Infiltrating ductal carcinoma, Estrogen receptor 56, Progesterone receptor 23, S-phase fraction 2., Her 2 neu 0 and all nodes negative.
+STAGE:
+Stage I.
+TNM STAGE:
+T1, N0 and M0.
+SURGERY:
+<mark style="background:#ffe066;color:#111">S/P lumpectomy left breast and Left axillary node sampling.</mark> Patient is here for further recommendation.
+PAST MEDICAL HISTORY:
+Osteoarthritis for 5 years. ASHD for 10 years. Kidney stones recurrent for 10 years.
+SCREENING TEST HISTORY:
+Last rectal exam was done on 10/99. Last mammogram was done on 12/99. Last gynecological exam was done on 10/99. Last PAP smear was done on 10/99. Last chest x-ray was done o</div></article></main></body></html>
