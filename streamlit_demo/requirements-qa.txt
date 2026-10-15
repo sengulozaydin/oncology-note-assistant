@@ -1,0 +1,6 @@
+# Reference versions from the existing licensed notebook environment.
+# Do not pip-install this file: Healthcare NLP requires the licensed JSL installation.
+pyspark==3.5.0
+spark-nlp==7.0.0
+spark-nlp-jsl==7.0.0
+johnsnowlabs==7.0.0

@@ -2,3 +2,54 @@ spark/
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+# Local Python environments and runtime artifacts
+.venv/
+venv/
+env/
+.cache/
+cache_pretrained/
+spark-tmp/
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+*.pyc
+
+# Credentials and licensed installations must remain local
+.johnsnowlabs/
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*license*.json
+*secret*.json
+*credentials*.json
+*.pem
+*.key
+
+# Model weights, archives, and private datasets
+*.jar
+*.onnx
+*.safetensors
+*.bin
+*.zip
+*.tar.gz
+models/
+data_private/
+private/
+
+# Additional local credential and data formats
+*license*.txt
+*.lic
+*secret*.yaml
+*secret*.yml
+*secret*.toml
+credentials.*
+.aws/
+*.p12
+*.pkl
+*.parquet
+*.h5
+*.pt
+*.pth
+raw_data/
