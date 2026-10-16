@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 
 PIPELINE_NAME = 'clinical_notes_qa_base_onnx_pipeline'
+MAX_ANSWER_TOKENS = 128
 
 
 class SetupError(RuntimeError):
@@ -54,9 +55,16 @@ class HealthcareQA:
                         'spark.driver.bindAddress': '127.0.0.1', 'spark.driver.host': '127.0.0.1'})
         from sparknlp.pretrained import PretrainedPipeline
         self.pipeline = PretrainedPipeline.from_disk(str(model_path))
-        if not any(type(stage).__name__ == 'MedicalQuestionAnswering' for stage in self.pipeline.model.stages):
+        qa_stages = [stage for stage in self.pipeline.model.stages
+                     if type(stage).__name__ == 'MedicalQuestionAnswering']
+        if len(qa_stages) != 1:
             self.pipeline = None
-            raise SetupError('The local pipeline does not contain the Healthcare NLP MedicalQuestionAnswering stage.')
+            raise SetupError('The local pipeline must contain exactly one Healthcare NLP MedicalQuestionAnswering stage.')
+        # The cached model limits output to 30 subword tokens, cutting some answers
+        # mid-word. Keep the same model, prompt and EOS behavior; allow longer output.
+        qa_stages[0].setMaxNewTokens(MAX_ANSWER_TOKENS)
+        from sparknlp.base import LightPipeline
+        self.pipeline.light_model = LightPipeline(self.pipeline.model)
         self.load_count += 1
 
     def ask(self, question, context):
